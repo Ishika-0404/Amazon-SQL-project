@@ -152,6 +152,8 @@ Key business problems identified:
 ## **Solving Business Problems**
 
 ### Solutions Implemented:
+
+```
 select * from category;
 select * from customers;
 select * from inventory;
@@ -161,7 +163,7 @@ select * from payments;
 select * from products;
 select * from shipping;
 select * from sellers;
-
+```
 
 1. Top Selling Products
 Query the top 10 products by total sales value.
@@ -822,7 +824,7 @@ BEGIN
 END;
 $$
 
-```
+
 
 
 --**Testing Store Procedure**
@@ -833,32 +835,4 @@ call add_sales
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
